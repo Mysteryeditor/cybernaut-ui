@@ -1,0 +1,19 @@
+#login{
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+/* navbar scrolldown fixed top*/
+.navbar-fixed-top-scrolled {
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.103);
+}
+
+@media only screen and (max-width: 765px) and (min-width: 320px) {
+
+#brandimg{
+    height: 35px;
+}
+
+  }

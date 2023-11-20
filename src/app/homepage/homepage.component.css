@@ -1,0 +1,307 @@
+.layer1 {
+  min-height: 120vh;
+}
+
+.sublayer1 {
+  border: none;
+  min-height: 115vh;
+}
+
+.sublayer1:hover {
+  border: 1px solid rgb(236, 236, 236);
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(215, 215, 215, 0.927);
+}
+
+.innersublayer1 {
+  background-color: rgb(235, 235, 235);
+  border-radius: 30px;
+}
+
+/* button */
+.button-animation {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: 0.5s;
+  z-index: 1;
+  border-radius: 10px;
+  border: none;
+}
+
+.button-animation::before {
+  content: "";
+  width: 10px; /* Adjust the initial size as needed */
+  height: 10px; /* Adjust the initial size as needed */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  border: none;
+  border-radius: 20px;
+  transition: width 0.5s, height 0.5s, transform 1s;
+  z-index: -1;
+}
+
+.button-animation:hover::before {
+  width: 200%; /* Adjust the final size as needed */
+  height: 200%; /* Adjust the final size as needed */
+  transform: translate(-50%, -50%) scale(1);
+  border: none;
+}
+
+.button {
+  color: white;
+  background-color: black;
+}
+
+.button::before {
+  background: #1779c3;
+}
+
+.ecompany:hover {
+  color: #111;
+}
+
+#cybernaut {
+  color: rgb(3, 102, 182);
+  font-size: 80px;
+  font-weight: bolder;
+}
+
+.explore {
+  color: #00355e;
+  font-size: 60px;
+  font-weight: bolder;
+  line-height: 68px;
+}
+
+.layer1logo {
+  max-height: 550px;
+}
+
+/* button */
+.button1 {
+  color: white;
+  background-color: #1779c3;
+}
+
+.button1::before {
+  background: #000000;
+}
+
+.layer2 {
+  min-height: 85vh;
+}
+
+.layer2sublayer {
+  min-height: 70vh;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    90deg,
+    #2dcc6e 0%,
+    #4be68a 50%,
+    #2dcc6e 100%
+  );
+}
+
+.modeOn {
+  font-size: 100px;
+  line-height: 100px;
+  font-weight: bolder;
+  color: white;
+  text-transform: uppercase;
+}
+
+.layer2img {
+  position: absolute;
+  height: 420px;
+  margin-top: 154px;
+  margin-left: -140px;
+}
+
+.button2 {
+  color: green;
+  background-color: white;
+}
+
+.button2::before {
+  background-color: black;
+}
+
+.button2:hover {
+  color: white;
+}
+
+/* layer3 */
+.hyphen {
+  letter-spacing: -2.5px;
+  font-weight: 100;
+  color: rgb(176, 175, 175);
+}
+
+/* layer4 */
+.layer4 .card {
+  border-radius: 20px;
+  /* background-color: maroon; */
+}
+
+.layer4 h1 {
+  opacity: 0.1;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+/* layer 5 */
+.layer4 .card {
+  border: none;
+}
+.techpack-card {
+  background-color: #178bff;
+}
+
+.techpack-card:hover {
+  box-shadow: 7px 7px 7px 7px #86c3ff;
+}
+.juniorpack-card {
+  background-color: #f7b933;
+}
+.juniorpack-card:hover {
+  box-shadow: 7px 7px 7px 7px #f7b933;
+}
+.nontechpack-card {
+  background-color: #f42c37;
+}
+.nontechpack-card:hover {
+  box-shadow: 7px 7px 7px 7px #f42c37;
+}
+.designer-packcard {
+  background-color: #2dd06f;
+}
+.designer-packcard:hover {
+  box-shadow: 7px 7px 7px 7px #2dd06f;
+}
+
+.juniorPackimg {
+  position: absolute;
+  max-height: 390px;
+  right: 25px;
+}
+
+.row2cardimg1 {
+  position: absolute;
+  max-height: 270px;
+  right: -50px;
+}
+
+.img-card-designing {
+  position: absolute;
+  left: 40%;
+  max-height: 300px;
+}
+
+.layer6 .card {
+  border: none;
+}
+
+.layer6 .card img {
+  max-height: 60px;
+}
+
+/* layer 7 */
+.layer7 p {
+  font-size: 20px;
+  line-height: 26px;
+}
+.layer7 img {
+  border-radius: 600px;
+}
+
+.layer7:hover {
+  box-shadow: 10px 10px 10px 10px #249cfd;
+  border: none;
+}
+
+.gradient-blue {
+  background-image: linear-gradient(
+    180deg,
+    #249cfd 0%,
+    #24a8fe 50%,
+    #27baff 100%
+  );
+}
+
+/* layer8 */
+.layer8 {
+  background-color: #f4f4f4;
+}
+
+/* layer9 */
+.layer9 h1 {
+  color: #fec62e;
+}
+
+.layer10 .row {
+  background-color: #f4f4f4;
+}
+
+.layer11 .card {
+  background-color: #f4f4f4;
+}
+
+/* layer12 */
+.layer12 .card {
+  border: none;
+}
+
+/* layer13 */
+.layer13 {
+  background-color: #f4f4f4;
+}
+
+.layer13 img {
+  opacity: 0.2;
+}
+
+.layer13 img:hover {
+  opacity: 1;
+}
+
+/* mediaqueries */
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+  .layer1 {
+    min-height: 40vh;
+  }
+
+  .sublayer1 {
+    min-height: 1vh;
+  }
+  .layer1logo {
+    margin: 10px;
+  }
+
+  #cybernaut {
+    display: none;
+  }
+
+  .explore {
+    font-size: 15px;
+  }
+
+  .button {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+
+  .display-none {
+    display: none;
+  }
+
+  .modeOn {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+  
